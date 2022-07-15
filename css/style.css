@@ -1,9 +1,21 @@
 *{
+  
+    background-color: #8800C8;
+    margin: 0;
+    padding: 0;
+}
+
+#separar-bloco{
+    margin-top: 40px;
+    position: relative;
+    width: auto;
+    height: 2px;
+    display: flex;
     background-color: azure;
 }
 
 #logo-e-titulo{
-    position: absolute;
+    position:static;
     display:flex;
     width: 400px;
     height: 55px;
@@ -12,12 +24,138 @@
 }
 
 #logo-img{
+    background: rgba(0, 0, 0, 0.0);
     width: 20px;
     height: 20px;
 }
 
-#logo{
+#separar-logo{
+    position: absolute;
+    background-color: rgb(41, 41, 41);
+    width: 2px;
+    height: 40px;
+    margin-left: 70px;
+    margin-top: 7px;
+
+
+}
+
+#aux {
+    position: absolute;
+    background-color: #ffffff;
+    width: 420px;
+    height: 2px;
+    bottom: 20px;
+    right: -8px;
+
+}
+#img{
+    margin-left: 10px;
+    margin-top: 7px;
+    position: absolute;
     width: 40px;
     height: 40px;
-    border-radius: 4px;
+    border-radius: 8px;
+    border: solid 1px
+}
+
+#titulo-cabecalho{
+    background: rgba(0, 0, 0, 0.0);
+    width: auto;
+    margin-bottom: 100px;
+
+
+}
+
+#titulo{
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 96px;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    background: rgba(0, 0, 0, 0.0);
+
+}
+
+#menu{
+    margin-top: 14px;
+    position: relative;
+    margin-left: 90px;
+    
+  }
+  
+.item {
+    font-family: 'Open Sans', sans-serif;
+    position: absolute;
+    bottom: 40px;
+    font-size: 12.5px;
+    color: #373535;
+    margin-left: 230px;
+    cursor: pointer;
+}
+
+.material-symbols-outlined{
+    background: rgba(0, 0, 0, 0.0);
+}
+  
+#corpo{
+    
+    position: relative;
+    display: flex;
+    background-color: #8800C8;
+    width: 475px;
+    flex-direction: column;
+
+}
+
+#aplicacao{
+    background: rgba(0, 0, 0, 0.0);
+    margin-left: 40px;
+    margin-top: 10px;
+    position: relative;
+    display: flex;
+
+}
+
+#salvar{
+    background-color: azure;
+    width: 300px;
+    height: 40px;
+    border-radius:20px;
+    border-style: none;
+}
+
+#botao{
+    background-color: azure;
+    width: 60px;
+    height: 30px;
+    border-style: none;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-left:120px;
+}
+#test{
+    position: relative;
+    right: 58px;
+    top: 3px;
+}
+nav {
+    position: absolute;
+    top: 50px;
+    left: 0px;
+    right: 100px;
+    margin-right: 20px;
+}
+nav li {
+    right: 100px;
+    display: inline-block;
+    margin: 0 0 0 20px;    
+}
+nav a {
+    text-transform: uppercase;
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 10px;
+    text-decoration: none;
 }
